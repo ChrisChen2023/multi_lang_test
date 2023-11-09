@@ -86,6 +86,9 @@ plugins:
   - search
   - macros:
       include_dir: docs-3/reuse/
+  - mike:
+      version_selector: false
+
 
           
 extra: 
