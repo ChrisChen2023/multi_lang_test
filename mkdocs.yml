@@ -28,6 +28,7 @@ theme:
 
 extra_css:
   - stylesheets/note.css
+  - stylesheets/hide_version_selector.css
   
 markdown_extensions:
   - footnotes
@@ -116,6 +117,4 @@ plugins:
   - search
   - macros:
       include_dir: docs-3/reuse/
-  - mike:
-      version_selector: false
 
