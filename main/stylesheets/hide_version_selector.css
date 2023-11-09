@@ -1,0 +1,9 @@
+div.md-version {
+    display: none !important;
+}
+
+aside.md-banner {
+    color: rgba(0, 0, 0, 0.714);
+    background-color: rgba(169, 241, 62, 0.541);
+}
+
