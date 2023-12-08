@@ -1,0 +1,148 @@
+```anltr4
+createGraphTypeStatement :
+    CREATE (PROPERTY? GRAPH TYPE (IF NOT EXISTS)?) graphTypeName graphTypeSource ;
+
+graphTypeName :
+    identifier ;
+
+graphTypeSource :
+    (AS)? nestedGraphTypeSpecification ;    
+
+nestedGraphTypeSpecification :
+    LBRACE graphTypeSpecificationBody RBRACE ;
+
+graphTypeSpecificationBody :
+    elementTypeDefinitionList ;
+
+elementTypeDefinitionList :
+    elementTypeDefinition (COMMA elementTypeDefinition)* ;
+
+elementTypeDefinition :
+    nodeTypeDefinition
+    | edgeTypeDefinition ;
+
+nodeTypeDefinition :
+    nodeTypePattern ;
+
+nodeTypePattern :
+    LPAREN nodeTypeNameAndPrimaryKey RPAREN nodeTypeFiller ;
+
+nodeTypeNameAndPrimaryKey :
+    nodeTypeName LPAREN primaryKeyName RPAREN ;
+
+nodeTypeName :
+    identifier ;
+
+primaryKeyName :
+    identifier ;
+
+nodeTypeFiller :
+    nodeTypeLabelSetDefinition
+    | nodeTypePropertyTypeSetDefinition
+    | nodeTypeLabelSetDefinition nodeTypePropertyTypeSetDefinition ;
+
+nodeTypeLabelSetDefinition :
+    labelSetDefinition ;
+
+nodeTypePropertyTypeSetDefinition :
+    propertyTypeSetDefinition ;
+
+labelSetDefinition :
+    LABEL labelName
+    | LABELS labelSetSpecification
+    | isOrColon labelSetSpecification ;     
+
+labelName :
+    identifier ;
+
+isOrColon :
+    IS
+    | COLON ;
+
+labelSetSpecification :
+    labelName (AMPERSAND labelName)* ;
+
+propertyTypeSetDefinition :
+    LBRACE (propertyTypeDefinition (COMMA propertyTypeDefinition)*)? RBRACE ;   
+
+propertyTypeDefinition :
+    propertyName (typed)? propertyValueType ;
+
+typed :
+    DOUBLE_COLON | TYPED ;  
+
+edgeTypeDefinition :
+    edgeTypePattern ;
+
+edgeTypePattern :
+    fullEdgeTypePattern ;
+
+fullEdgeTypePattern :
+    fullEdgeTypePatternPointingRight
+    | fullEdgeTypePatternPointingLeft ;
+
+fullEdgeTypePatternPointingRight :
+    sourceNodeTypeReference arcTypePointingRight destinationNodeTypeReference ;
+
+fullEdgeTypePatternPointingLeft :
+    destinationNodeTypeReference arcTypePointingLeft sourceNodeTypeReference ;
+
+arcTypePointingRight :
+    minusLeftBracket arcTypeFiller bracketRightArrow ;
+
+arcTypePointingLeft :
+    leftArrowBracket arcTypeFiller rightBracketMinus ;
+
+sourceNodeTypeReference :
+    LPAREN sourceNodeTypeName RPAREN
+    | LPAREN nodeTypeFiller RPAREN ;
+
+destinationNodeTypeReference :
+    LPAREN destinationNodeTypeName RPAREN
+    | LPAREN nodeTypeFiller RPAREN ;    
+
+arcTypeFiller :
+    edgeTypeName edgeTypeFiller ;
+
+edgeTypeName :
+    identifier ;    
+
+edgeTypeFiller :
+    edgeTypeLabelSetDefinition
+    | edgeTypePropertyTypeSetDefinition
+    | edgeTypeLabelSetDefinition edgeTypePropertyTypeSetDefinition ;
+
+edgeTypeLabelSetDefinition :
+    labelSetDefinition ;
+
+edgeTypePropertyTypeSetDefinition : 
+    propertyTypeSetDefinition ;
+
+minusLeftBracket :  
+    MINUS LBRACKET ;    
+
+bracketRightArrow :
+    RBRACKET ARROW ;    
+
+leftArrowBracket :
+    LARROW LBRACKET ;
+
+rightBracketMinus :
+    RBRACKET MINUS ;
+
+comma :
+    COMMA ;
+
+doubleColon :
+    DOUBLE_COLON ;  
+
+COMMA : ',' ;
+DOUBLE_COLON : '::' ;
+TYPED : 'TYPED' ;
+IS : 'IS' ;
+COLON : ':' ;
+BRACKET : '[' ;
+RBRACKET : ']' ;
+LARRROW : '<-' ;
+ARROW : '->' ;
+```
