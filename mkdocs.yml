@@ -89,6 +89,7 @@ extra:
   version:
     provider: mike
   analytics:
+    provider: google
     feedback:
       title: Was this page helpful?
       ratings:
