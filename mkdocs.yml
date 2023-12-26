@@ -19,6 +19,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - announce.dismss
   palette:
     - scheme: nebula
       toggle:
