@@ -32,6 +32,7 @@ theme:
 extra_css:
   - stylesheets/note.css
   - stylesheets/hide_version_selector.css
+  - stylesheets/pdf.css
   
 markdown_extensions:
   - footnotes
