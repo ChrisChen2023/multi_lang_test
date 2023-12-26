@@ -1469,8 +1469,8 @@ Insider: Document versions starting from 3.6.0 contain Community Edition feature
 <li>If you generate int64 VID via hash, the probability of collision is about 1/10 when there are 1 billion vertices. The number of edges has no concern with the probability of collision.</li>
 </ul>
 <h2 id="define_and_modify_a_vid_and_its_data_type">Define and modify a VID and its data type<a class="headerlink" href="#define_and_modify_a_vid_and_its_data_type" title="Permanent link">&para;</a></h2>
-<p>The data type of a VID must be defined when you <a href="../../3.ngql-guide/9.space-statements/1.create-space/">create the graph space</a>. Once defined, it cannot be modified.</p>
-<p>A VID is set when you <a href="../../3.ngql-guide/12.vertex-statements/1.insert-vertex/">insert a vertex</a> and cannot be modified. </p>
+<p>The data type of a VID must be defined when you <a href="../3.ngql-guide/9.space-statements/1.create-space.md">create the graph space</a>. Once defined, it cannot be modified.</p>
+<p>A VID is set when you <a href="../3.ngql-guide/12.vertex-statements/1.insert-vertex.md">insert a vertex</a> and cannot be modified. </p>
 <h2 id="query_start_vid_and_global_scan">Query <code>start vid</code> and global scan<a class="headerlink" href="#query_start_vid_and_global_scan" title="Permanent link">&para;</a></h2>
 <p>In most cases, the execution plan of query statements in NebulaGraph (<code>MATCH</code>, <code>GO</code>, and <code>LOOKUP</code>) must query the <code>start vid</code> in a certain way.</p>
 <p>There are only two ways to locate <code>start vid</code>:</p>

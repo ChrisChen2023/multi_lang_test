@@ -1837,7 +1837,7 @@ vid_type = {FIXED_STRING(&lt;N&gt;) | INT64}
 )
 [COMMENT = &#39;&lt;comment&gt;&#39;];
 </code></pre></div>
-<p>For more information on parameters, see <a href="../../3.ngql-guide/9.space-statements/1.create-space/">CREATE SPACE</a>.</p>
+<p>For more information on parameters, see <a href="../3.ngql-guide/9.space-statements/1.create-space.md">CREATE SPACE</a>.</p>
 <!-- <code>charset</code> and <code>collate</code> now each has only one value. Omit the two options for now.
       charset = <charset>
       collate = <collate>
@@ -1903,7 +1903,7 @@ vid_type = {FIXED_STRING(&lt;N&gt;) | INT64}
     [TTL_COL = &lt;prop_name&gt;]
     [COMMENT = &#39;&lt;comment&gt;&#39;];
 </code></pre></div>
-<p>For more information on parameters, see <a href="../../3.ngql-guide/10.tag-statements/1.create-tag/">CREATE TAG</a> and <a href="../../3.ngql-guide/11.edge-type-statements/1.create-edge/">CREATE EDGE</a>.</p>
+<p>For more information on parameters, see <a href="../3.ngql-guide/10.tag-statements/1.create-tag.md">CREATE TAG</a> and <a href="../3.ngql-guide/11.edge-type-statements/1.create-edge.md">CREATE EDGE</a>.</p>
 <h3 id="examples_1">Examples<a class="headerlink" href="#examples_1" title="Permanent link">&para;</a></h3>
 <p>Create tags <code>player</code> and <code>team</code>, and edge types <code>follow</code> and <code>serve</code>. Descriptions are as follows.</p>
 <table>
@@ -1961,7 +1961,7 @@ prop_name_list:
 prop_value_list:
    [prop_value [, prop_value] ...]   
 </code></pre></div>
-<p><code>vid</code> is short for Vertex ID. A <code>vid</code> must be a unique string value in a graph space. For details, see <a href="../../3.ngql-guide/12.vertex-statements/1.insert-vertex/">INSERT VERTEX</a>.</p>
+<p><code>vid</code> is short for Vertex ID. A <code>vid</code> must be a unique string value in a graph space. For details, see <a href="../3.ngql-guide/12.vertex-statements/1.insert-vertex.md">INSERT VERTEX</a>.</p>
 </li>
 </ul>
 <ul>
@@ -1975,7 +1975,7 @@ prop_value_list:
 &lt;prop_value_list&gt; ::=
 [ &lt;prop_value&gt; [, &lt;prop_value&gt; ] ...]
 </code></pre></div>
-<p>For more information on parameters, see <a href="../../3.ngql-guide/13.edge-statements/1.insert-edge/">INSERT EDGE</a>.</p>
+<p>For more information on parameters, see <a href="../3.ngql-guide/13.edge-statements/1.insert-edge.md">INSERT EDGE</a>.</p>
 </li>
 </ul>
 <h3 id="examples_2">Examples<a class="headerlink" href="#examples_2" title="Permanent link">&para;</a></h3>
@@ -2003,16 +2003,16 @@ nebula&gt; INSERT EDGE serve(start_year, end_year) VALUES &quot;player101&quot; 
 </ul>
 <h2 id="read_data">Read data<a class="headerlink" href="#read_data" title="Permanent link">&para;</a></h2>
 <ul>
-<li>The <a href="../../3.ngql-guide/7.general-query-statements/3.go/">GO</a> statement can traverse the database based on specific conditions. A <code>GO</code> traversal starts from one or more vertices, along one or more edges, and returns information in a form specified in the <code>YIELD</code> clause.</li>
+<li>The <a href="../3.ngql-guide/7.general-query-statements/3.go.md">GO</a> statement can traverse the database based on specific conditions. A <code>GO</code> traversal starts from one or more vertices, along one or more edges, and returns information in a form specified in the <code>YIELD</code> clause.</li>
 </ul>
 <ul>
-<li>The <a href="../../3.ngql-guide/7.general-query-statements/4.fetch/">FETCH</a> statement is used to get properties from vertices or edges.</li>
+<li>The <a href="../3.ngql-guide/7.general-query-statements/4.fetch.md">FETCH</a> statement is used to get properties from vertices or edges.</li>
 </ul>
 <ul>
-<li>The <a href="../../3.ngql-guide/7.general-query-statements/5.lookup/">LOOKUP</a> statement is based on <a href="#about_indexes">indexes</a>. It is used together with the <code>WHERE</code> clause to search for the data that meet the specific conditions.</li>
+<li>The <a href="../3.ngql-guide/7.general-query-statements/5.lookup.md">LOOKUP</a> statement is based on <a href="#about_indexes">indexes</a>. It is used together with the <code>WHERE</code> clause to search for the data that meet the specific conditions.</li>
 </ul>
 <ul>
-<li>The <a href="../../3.ngql-guide/7.general-query-statements/2.match/">MATCH</a> statement is the most commonly used statement for graph data querying. It can describe all kinds of graph patterns, but it relies on <a href="#about_indexes">indexes</a> to match data patterns in NebulaGraph. Therefore, its performance still needs optimization.</li>
+<li>The <a href="../3ngql-guide/../3.ngql-guide/7.general-query-statements/2.match.md">MATCH</a> statement is the most commonly used statement for graph data querying. It can describe all kinds of graph patterns, but it relies on <a href="#about_indexes">indexes</a> to match data patterns in NebulaGraph. Therefore, its performance still needs optimization.</li>
 </ul>
 <h3 id="ngql_syntax_3">nGQL syntax<a class="headerlink" href="#ngql_syntax_3" title="Permanent link">&para;</a></h3>
 <ul>
@@ -2261,11 +2261,11 @@ nebula&gt; UPSERT VERTEX &quot;player111&quot; SET player.name = &quot;David&quo
 </li>
 </ul>
 <h2 id="about_indexes">About indexes<a class="headerlink" href="#about_indexes" title="Permanent link">&para;</a></h2>
-<p>Users can add indexes to tags and edge types with the <a href="../../3.ngql-guide/14.native-index-statements/1.create-native-index/">CREATE INDEX</a> statement.</p>
+<p>Users can add indexes to tags and edge types with the <a href="../3.ngql-guide/14.native-index-statements/1.create-native-index.md">CREATE INDEX</a> statement.</p>
 <div class="admonition caution">
 <p class="admonition-title">Must-read for using indexes</p>
 <p>Both <code>MATCH</code> and <code>LOOKUP</code> statements depend on the indexes. But indexes can dramatically reduce the write performance<!-- (as much as 90% or even more)-->. <strong>DO NOT</strong> use indexes in production environments unless you are fully aware of their influences on your service.</p>
-<p>Users <strong>MUST</strong> rebuild indexes for pre-existing data. Otherwise, the pre-existing data cannot be indexed and therefore cannot be returned in <code>MATCH</code> or <code>LOOKUP</code> statements. For more information, see <a href="../../3.ngql-guide/14.native-index-statements/4.rebuild-native-index/">REBUILD INDEX</a>.</p>
+<p>Users <strong>MUST</strong> rebuild indexes for pre-existing data. Otherwise, the pre-existing data cannot be indexed and therefore cannot be returned in <code>MATCH</code> or <code>LOOKUP</code> statements. For more information, see <a href="../3.ngql-guide/14.native-index-statements/4.rebuild-native-index.md">REBUILD INDEX</a>.</p>
 </div>
 <h3 id="ngql_syntax_6">nGQL syntax<a class="headerlink" href="#ngql_syntax_6" title="Permanent link">&para;</a></h3>
 <ul>
@@ -2281,7 +2281,7 @@ ON {&lt;tag_name&gt; | &lt;edge_name&gt;} ([&lt;prop_name_list&gt;]) [COMMENT = 
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Define the index length when creating an index for a variable-length property. In UTF-8 encoding, a non-ascii character occupies 3 bytes. You should set an appropriate index length according to the variable-length property. For example, the index should be 30 bytes for 10 non-ascii characters. For more information, see <a href="../../3.ngql-guide/14.native-index-statements/1.create-native-index/">CREATE INDEX</a></p>
+<p>Define the index length when creating an index for a variable-length property. In UTF-8 encoding, a non-ascii character occupies 3 bytes. You should set an appropriate index length according to the variable-length property. For example, the index should be 30 bytes for 10 non-ascii characters. For more information, see <a href="../3.ngql-guide/14.native-index-statements/1.create-native-index.md">CREATE INDEX</a></p>
 </div>
 <h3 id="examples_of_lookup_and_match_index-based">Examples of <code>LOOKUP</code> and <code>MATCH</code> (index-based)<a class="headerlink" href="#examples_of_lookup_and_match_index-based" title="Permanent link">&para;</a></h3>
 <p>Make sure there is an <a href="#about_indexes">index</a> for <code>LOOKUP</code> or <code>MATCH</code> to use. If there is not, create an index first.</p>

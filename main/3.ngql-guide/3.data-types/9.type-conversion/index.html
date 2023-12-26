@@ -1300,7 +1300,7 @@ Insider: Document versions starting from 3.6.0 contain Community Edition feature
 
 <h1 id="type_conversiontype_coercions">Type Conversion/Type coercions<a class="headerlink" href="#type_conversiontype_coercions" title="Permanent link">&para;</a></h1>
 <p>Converting an expression of a given type to another type is known as type conversion.</p>
-<p>NebulaGraph supports converting expressions explicit to other types. For details, see <a href="../../6.functions-and-expressions/16.type-conversion/">Type conversion functions</a>.</p>
+<p>NebulaGraph supports converting expressions explicit to other types. For details, see <a href="../6.functions-and-expressions/16.type-conversion.md">Type conversion functions</a>.</p>
 <h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>nebula&gt; UNWIND [true, false, &#39;true&#39;, &#39;false&#39;, NULL] AS b \
         RETURN toBoolean(b) AS b;

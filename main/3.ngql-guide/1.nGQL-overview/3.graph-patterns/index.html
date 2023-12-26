@@ -1445,7 +1445,19 @@ Insider: Document versions starting from 3.6.0 contain Community Edition feature
 <p>Patterns and graph pattern matching are the very heart of a graph query language. This topic will describe the patterns in NebulaGraph, some of which have not yet been implemented.</p>
 <h2 id="patterns_for_vertices">Patterns for vertices<a class="headerlink" href="#patterns_for_vertices" title="Permanent link">&para;</a></h2>
 <p>A vertex is described using a pair of parentheses and is typically given a name. For example:</p>
-<div class="highlight"><pre><span></span><code>(a)
+<div class="highlight"><pre><span></span><code>+--------------------+
+| e                  |
++--------------------+
+| [{classYear:2007}] |
+| [{classYear:2006}] |
+...
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="o">+</span><span class="c1">--------------------+</span>
+<span class="o">|</span><span class="w"> </span><span class="n">e</span><span class="w">                  </span><span class="o">|</span>
+<span class="o">+</span><span class="c1">--------------------+</span>
+<span class="o">|</span><span class="w"> </span><span class="p">[</span><span class="err">{</span><span class="n">classYear</span><span class="p">:</span><span class="mi">2007</span><span class="err">}</span><span class="p">]</span><span class="w"> </span><span class="o">|</span>
+<span class="o">|</span><span class="w"> </span><span class="p">[</span><span class="err">{</span><span class="n">classYear</span><span class="p">:</span><span class="mi">2006</span><span class="err">}</span><span class="p">]</span><span class="w"> </span><span class="o">|</span>
+<span class="p">...</span>
 </code></pre></div>
 <p>This simple pattern describes a single vertex and names that vertex using the variable <code>a</code>.</p>
 <h2 id="patterns_for_related_vertices">Patterns for related vertices<a class="headerlink" href="#patterns_for_related_vertices" title="Permanent link">&para;</a></h2>
