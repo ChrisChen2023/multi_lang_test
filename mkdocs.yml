@@ -9,6 +9,9 @@ edit_uri: 'https://github.com/ChrisChen2023/multi_lang_test/edit/main/docs-3'
 theme:
   name: material
   custom_dir: docs-3/overrides
+  font:
+    code: Source Code Pro
+    text: Noto Sans
   icon:
       repo: fontawesome/brands/github
   logo: 'https://docs-cdn.nebula-graph.com.cn/figures/vesoft-nebula-logo-white22-12-21.png'
