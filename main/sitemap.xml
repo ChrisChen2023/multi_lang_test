@@ -2,212 +2,212 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/1.what-is-nebula-graph/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/2.1.path/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/2.data-model/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/3.vid/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/3.nebula-graph-architecture/1.architecture-overview/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/3.nebula-graph-architecture/2.meta-service/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/3.nebula-graph-architecture/3.graph-service/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/1.introduction/3.nebula-graph-architecture/4.storage-service/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/1.quick-start-workflow0/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/2.install-nebula-graph/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/3.1add-storage-hosts/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/3.connect-to-nebula-graph/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/4.nebula-graph-crud/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/5.start-stop-service/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/2.quick-start/6.cheatsheet-for-ngql/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/4.job-statements/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/1.overview/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/3.graph-patterns/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/comments/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/identifier-case-sensitivity/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/keywords-and-reserved-words/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/1.nGQL-overview/ngql-style-guide/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/1.numeric/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/10.geography/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/2.boolean/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/3.string/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/4.date-and-time/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/5.null/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/6.list/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/7.set/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/8.map/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/3.ngql-guide/3.data-types/9.type-conversion/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/nebula-dashboard/1.what-is-dashboard/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/nebula-dashboard/2.deploy-dashboard/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/nebula-dashboard/3.connect-dashboard/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/nebula-dashboard/4.use-dashboard/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/nebula-dashboard/6.monitor-parameter/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/reuse/source-monitoring-metrics/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/reuse/source_connect-to-nebula-graph/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/reuse/source_install-nebula-graph-by-rpm-or-deb/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://chrischen2023.github.io/multi_lang_test/main/reuse/source_manage-service/</loc>
-         <lastmod>2023-12-28</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
