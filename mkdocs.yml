@@ -177,5 +177,4 @@ plugins:
   - search
   - macros:
       include_dir: docs-3/reuse/
-  - privacy    
 
