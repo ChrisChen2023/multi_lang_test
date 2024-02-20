@@ -101,20 +101,9 @@ extra:
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: material/emoticon-excited-outline
-          name: The content was excellent and thoroughly answered my questions.
-          data: 5
-          note: >-
-            Thanks for your feedback! 
-        - icon: material/emoticon-happy-outline
-          name: The content was useful and answered most of my questions. 
-          data: 4
-          note: >-
-            Thanks for your feedback! Help us improve this page by
-            submitting a <a href="https://github.com/ChrisChen2023/multi_lang_test/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">GitHub issue</a>.
-        - icon: material/emoticon-neutral-outline
-          name: The content was adequate and provided the basic information I needed.
-          data: 3
+        - icon: material/emoticon-dead-outline
+          name: The content did not provide the information I was looking for or lacked clarity.
+          data: 1
           note: >- 
             Thanks for your feedback! Help us improve this page by
             submitting a <a href="https://github.com/ChrisChen2023/multi_lang_test/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">GitHub issue</a>.
@@ -124,12 +113,23 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             submitting a <a href="https://github.com/ChrisChen2023/multi_lang_test/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">GitHub issue</a>.
-        - icon: material/emoticon-dead-outline
-          name: The content did not provide the information I was looking for or lacked clarity.
-          data: 1
+        - icon: material/emoticon-neutral-outline
+          name: The content was adequate and provided the basic information I needed.
+          data: 3
           note: >- 
             Thanks for your feedback! Help us improve this page by
             submitting a <a href="https://github.com/ChrisChen2023/multi_lang_test/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">GitHub issue</a>.
+        - icon: material/emoticon-happy-outline
+          name: The content was useful and answered most of my questions. 
+          data: 4
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            submitting a <a href="https://github.com/ChrisChen2023/multi_lang_test/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">GitHub issue</a>.        
+        - icon: material/emoticon-excited-outline
+          name: The content was excellent and thoroughly answered my questions.
+          data: 5
+          note: >-
+            Thanks for your feedback!               
   consent:
     title: Cookie consent
     description: >- 
