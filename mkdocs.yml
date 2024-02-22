@@ -146,7 +146,6 @@ extra:
         checked: true  
     actions:
       - accept
-      - manage
       - reject
   social:
     - icon: 'fontawesome/brands/github'
